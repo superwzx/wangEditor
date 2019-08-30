@@ -67,6 +67,10 @@ function saveFiles(req) {
     })
 }
 
+router.get('/', function () {
+
+});
+
 // 上传图片
 router.post('/upload-img', function* () {
     const ctx = this
